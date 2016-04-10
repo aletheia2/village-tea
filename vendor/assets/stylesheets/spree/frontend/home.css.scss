@@ -1,0 +1,94 @@
+@import "bootstrap-sprockets";
+@import "variables";
+@import "bootstrap";
+
+.home-content {
+  .home-title {
+    font-size: $font-home-title-size;
+    display: inline-block;
+    margin-bottom: $margin-md-vertical;
+  }
+  .home-text {
+    font-size: $font-home-text-size;
+  }
+
+  .home-upper {
+    padding: $padding-large-vertical $padding-large-horizontal;
+    margin-bottom: $line-height-computed;
+
+    .home-title {
+      border-bottom: 1px solid #000;
+    }
+    .home-upper-polygon {
+      width: $home-upper-polygon-width;
+      img {
+        width: 100%;
+      }
+    }
+    .upper-row {
+      .home-upper-polygon {
+        margin-left: auto;
+        margin-right: $margin-sm-horizontal;
+      }
+    }
+    .lower-row {
+      text-align: right;
+      .home-upper-polygon {
+        margin-right: auto;
+        margin-left: $margin-sm-horizontal;
+      }
+    }
+  }
+
+  .home-lower {
+    background: asset-url('spree/frontend/home_lower_background.png') center center;
+    background-size: cover;
+    padding: $padding-large-vertical $padding-large-horizontal;
+    color: #fff;
+
+    .row {
+      margin-bottom: $margin-lg-vertical;
+    }
+
+    .home-lower-header {
+      font-size: $font-home-lower-header-size;
+      border-bottom: 1px solid #fff;
+      display: inline-block;
+      margin-bottom: $margin-md-vertical;
+    }
+
+    .home-title {
+      border-bottom: 1px solid #fff;
+    }
+
+    .polygon-container,
+    .text-container {
+      float: left;
+    }
+
+    .polygon-container {
+      width: $home-lower-polygon-width;
+
+      .home-lower-polygon {
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .text-container {
+      padding-left: $padding-large-horizontal;
+      width: calc(100% - #{$home-lower-polygon-width} - #{$margin-xl-horizontal});
+    }
+
+    .lower-row {
+      .polygon-container {
+        margin-left: $margin-xl-horizontal;
+      }
+    }
+  }
+
+  .home-map {
+    height: 500px;
+  }
+}

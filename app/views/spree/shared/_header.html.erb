@@ -1,0 +1,20 @@
+<div id="spree-header" class="general-header">
+  <header id="header" data-hook>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <figure id="logo" class="logo" data-hook>
+            <%= logo %>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="nav-bar-container">
+    <div class="container">
+      <div class="row">
+        <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+      </div>
+    </div>
+  </div>
+</div>

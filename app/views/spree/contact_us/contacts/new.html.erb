@@ -1,0 +1,53 @@
+<% @body_id = 'contact-us' %>
+
+<% content_for :head do -%>
+  <meta name="title" content="<%= Spree.t(:contact_us_title) %>">
+<% end -%>
+
+<%= render :partial => 'spree/shared/error_messages', :locals => { :target => @contact } %>
+
+<div class="row">
+  <div class="col-md-6">
+    <h1><%= Spree.t(:contact_us_title) %></h1>
+    <br>
+    <p><%= Spree.t('contact_us.company_name') %></p>
+    <p><%= Spree.t('contact_us.department') %></p>
+    <p><%= Spree.t('contact_us.address') %></p>
+    <p><%= Spree.t('contact_us.email') %></p>
+    <br>
+    <%= link_to Spree.t('contact_us.store_map'), spree.store_map_path, class: 'btn btn-success' %>
+  </div>
+  <div class="col-md-6">
+    <h3><%= Spree.t('contact_us.ask_us_anything') %></h3>
+    <%= form_for @contact, :url => contacts_path, :html => { :novalidate => '' } do |f| %>
+      <% if SpreeContactUs.require_name %>
+        <p>
+          <%= f.label :name %>
+          <span class="required">*</span><br/>
+          <%= f.text_field :name, class: 'required form-control' %>
+        </p>
+      <% end %>
+      <p>
+        <%= f.label :email %>
+        <span class="required">*</span><br/>
+        <%= f.email_field :email, class: 'required form-control email' %>
+      </p>
+      <% if SpreeContactUs.require_subject %>
+        <p>
+          <%= f.label :subject %>
+          <span class="required">*</span><br/>
+          <%= f.text_field :subject, class: 'required form-control' %>
+        </p>
+      <% end %>
+      <p>
+        <%= f.label :message %>
+        <span class="required">*</span><br/>
+        <%= f.text_area :message, class: 'required form-control' %>
+      </p>
+      <p>
+        <%= f.submit Spree.t(:submit), :alt => Spree.t(:submit), :id => 'contact_us_contact_submit', :title => Spree.t(:submit), :class => 'btn btn-primary' %>
+      </p>
+    <% end %>
+  </div>
+</div>
+

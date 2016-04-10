@@ -1,0 +1,54 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
+  <head data-hook="inside_head">
+    <%= render partial: 'spree/shared/head' %>
+  </head>
+  <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
+    <%= render partial: 'spree/shared/google_analytics.js' %>
+    <%= render partial: 'spree/shared/header' if !content_for? :home_header %>
+    <%= render partial: 'spree/shared/home_header' if content_for? :home_header %>
+
+    <% if @body_id === "contact-us" %>
+      <div class="contact-us-header"></div>
+    <% end %>
+
+    <% if @body_id === "store-map" %>
+      <div id="store-map-container" class="store-map"></div>
+    <% end %>
+
+    <% if !content_for? :home_header %>
+      <div class="container">
+        <div class="row" data-hook>
+          <%= breadcrumbs(@taxon) %>
+          <div id="content" class="col-sm-12" data-hook>
+            <%= flash_messages %>
+            <%= yield %>
+          </div>
+          <%= yield :templates %>
+        </div>
+      </div>
+    <% else %>
+      <div id="content" data-hook>
+        <div class="container">
+          <div class="row" data-hook>
+            <div class="col-sm-12" data-hook>
+              <%= flash_messages %>
+            </div>
+          </div>
+        </div>
+        <%= yield %>
+      </div>
+      <div class="container">
+        <div class="row" data-hook>
+          <%= yield :templates %>
+        </div>
+      </div>
+    <% end %>
+
+    <%= render partial: 'spree/shared/footer' %>
+  </body>
+</html>
