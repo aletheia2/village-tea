@@ -10,6 +10,9 @@
 # Ignore rubymine project description files
 .idea
 
+# Ignore public folder
+public
+
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
