@@ -20,4 +20,90 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  spree:
+    header:
+      title: Village Tea Co
+      text: Cold Brew Coffee & Tea
+      link_shop_now: Shop Now
+      shop: Shop
+      store_map: Store Map
+    home_upper:
+      upper_title: Village Tea Co
+      upper_text: A play on words, the name originates from an abbreviated version of the Phrygian cap, a symbol of enlightenment, and the phonetic allusion to a "fridge". Village Tea Co aims to encourage others to expand and explore their perceptions.
+      lower_title: Cold Brew
+      lower_text: Cold brew is a method, not an endpoint. We believe that people should be free to experienced iced coffee as a reflection of their preferences for single-origins, roasts, belnds and decaf.
+    home_lower:
+      header: Craft
+      upper_left_title: Roast
+      upper_left_text: Our coffee is batch roasted in the mountains of Eastern Washington by an Orthodox Priest. His approach is steeped in tradition.
+      upper_right_title: Soak
+      upper_right_text: Our grounds are placed in chilled, stainless steel containers to soak in water sourced from Palomar Mountain Granite Springs. The naturally occurring minerals set a foundation for the notes of chocolate, citrus, and jasmine that are awakended in our cold brew.
+      lower_left_title: Grind
+      lower_left_text: Our beans are ground with a Mahlkonig, the King of Grinders. It's so precise that the instructions are in German.
+      lower_right_title: Filtration
+      lower_right_text: When the rich, complex flavors of our coffee have fully diffused, we finish with a finely calibrated inline filtration system.
+    shop:
+      title: Shop Your Coffee
+    footer:
+      copyright: Village Tea Co, 2016
+      terms_and_conditions: Terms & Conditions
+      privacy_statement: Privacy Statement
+      delivery_and_returns: Delivery & Returns
+      shopping_costs: Shopping Costs
+      privacy_policy: Privacy Policy
+      help: Help
+      contact_us: Contact Us
+      contact: +1(408)996-1010
+    contact_us:
+      company_name: Village Tea Co
+      department: P.O.Box 5531
+      address: SAN DIEGO, CA 92165
+      email: yakovstar@live.com
+      store_map: Store Map
+      ask_us_anything: Ask Us Anything
+    privacy_policy:
+      header: Village Tea Co. Privacy Policy
+      header_text_part1: This Privacy Policy applies to Village Tea Co., doing business as Village Tea Co. (“Village Tea Co.”), mobile apps, http://www.villagetea.co and any other website owned and operated by Phryg that you are currently viewing and informs you what information is collected and used on this website. By visiting or using Village Tea Co.’s website, you consent to the data collection and use practices described in this policy.
+      header_text_part2: The mere act of visiting Phryg.com, even without reading the subject legal document will be viewed as acceptance of the terms contained in that document.
+      sub_title1: INFORMATION WE COLLECT
+      sub_text1: As you use Village Tea Co. services, we collect information about you and the services you use. The information we collect falls into the following categories:(1) Information you give us; (2) Information we collect from you when you register; and (3) Information we collect from other sources.
+      sub_title2: INFORMATION YOU GIVE US
+      sub_text2_part1: Information given to us when you use our services is collected by Village Tea Co.. An examples of using our services are when you visit a store, website, create an account, buy merchandise or participate in a promotion. The information collected could include your first or last name, username, password, email address, address, phone number, birthday, demographic information and any other information you choose to give Village Tea Co.. Payment information will not be collected, as our site will be using a third party payment system such as PayPal or Stripe or any other third party payment entity. Pursuant to our Policy, we use this contact data to facilitate communications with visitors. Customers may receive a follow-up email after submitting our online inquiry form, and may be further contacted only by the means specified by the customer in the form. Users may request email or telephone contact, or to subscribe to an opt-in newsletter updating them on program activities. The customer’s contact information may be also used to contact the visitor regarding their specific request or to send administrative notices regarding their use of the site users may opt-out of receiving future mailings (refer to the choice/opt-out section below). Demographic and profile data may be collected at our Website. We use this data to tailor our visitor’s experience at our Website, showing them content that we think they might be interested in, and displaying the content according to their preferences. All collected data is for internal use only and is never shared with third parties.
+      sub_text2_part2: If you use our mobile applications information such as your device ID, location and stores near you and visited by you may be collected. Further, we may collect information regarding the device and how you use it. This could include your operating system, browser, service provider, domain name, IP address, date and time you accessed our service, website that referred you to our website, subjects of the ads you click or scroll over. See the information regarding Cookies and Web Beacons below to see how we collect this information.
+      sub_title3: NOTIFICATION OF CHANGES
+      sub_text3: Information collected will only be used in a manner differing from this statement if active email consent is provided by the customer. Any changes to this statement will be communicated to the customer via email.
+      sub_title4: INFORMATION SECURITY
+      sub_text4: Village Tea Co.’s sites secure the e-mail address you provide on computer servers in a controlled, secure environment, protected from unauthorized access, use or disclosure. If you choose to create a profile on Village Tea Co.’s websites or if you choose to register for an account, you will be required to select a password. This password can be changed at any time after you first log into the service by using your current password. You must keep your password confidential and you must not share this information with anyone. If you share a computer with anyone, you should always log out of the website before leaving it to prevent access to your information from subsequent users of that computer.
+      sub_title5: MINORS
+      sub_text5: If you are under 13, you may use this website only through your parent or guardian and you are unable to purchase products from this website, unless such purchase is made through an adult. If you are a parent or guardian and believe we may have collected information about a child, please contact us as described in the “Contact Us” section, below.
+      sub_title6: INFORMATION FROM OTHER SOURCES
+      sub_text6_part1: At times, the information we received that has been outlined in the Policy with information from other sources and companies. This outside information includes updated delivery and address information from carriers or third parties, this allows Village Tea Co. to correct our records and ensure your next purchase is delivered from Village Tea Co. or future communications. Account information, purchase or redemption information and page-view information from some merchants whom we operate co-branded business or for which we provide technical, fulfillment, advertising or other services, search terms and result information from some searches conducted through the Web search features; search results and links, including paid listings.
+      sub_text6_part2: For example, we may collect information you submit to a blog, a chat room, or a social network like Facebook, Twitter or Google+. We may also collect information about you from other companies and organizations. By gathering additional information about you, we can correct inaccurate information and give you product recommendations and special offers that are more likely to interest you.
+      sub_title7: USE OF AND SHARING OF INFORMATION
+      sub_text7_part1: Village Tea Co. collects and uses your personal information, as detailed above, in order to operate the websites and to provide its online and electronic services. Except as otherwise stated below, the personal information you provide on this site will not be shared with any third parties, although Village Tea Co. reserves the right to share such information with its affiliates and subsidiaries without your permission.
+      sub_text7_part2: Village Tea Co. sometimes hires other companies to provide limited services on our behalf, such as sending newsletters, providing customer service, and performing statistical analysis of our services. We will only provide those companies with the information that they need to provide us with such services, and we prohibit them from using that information for any other purpose.
+      sub_text7_part3: Village Tea Co. reserves the right to disclose your personal information, without notice, only if required to do so by law or in the good faith belief that such action is necessary to:(a) conform to the edicts of the law or comply with legal process served on Village Tea Co. or the site; (b) protect and defend the rights or property of Village Tea Co. or one of Village Tea Co.’s affiliates; and, (c) act under exigent circumstances to protect the personal safety of users of Village Tea Co., its websites, or the public.
+      sub_title8: COOKIES
+      sub_text8_part1: Cookies are small data files that are sent from a website’s server and are stored on your device’s hard drive either for only the duration of your visit ("session cookies") or for a fixed period of time ("persistent cookies"). Cookies contain information that can later be read by a web server. Most web browsers automatically accept cookies, but you can change your browser settings to give you the choice to accept a cookie or reject cookies altogether.
+      sub_text8_part2: We mainly use cookies for the following purposes;
+      sub_text8_part2_inner_title1: Website Functionality
+      sub_text8_part2_inner_text1: Some cookies (considered "strictly necessary") are required to allow you to access and use our websites. Without these cookies, our websites do not work properly.
+      sub_text8_part2_inner_title2: Performance Monitoring
+      sub_text8_part2_inner_text2: Some cookies (considered "performance" cookies) help us analyze and estimate traffic on our website. They show us how visitors interact with our website, whether there are any errors, which pages are not used often, which pages take a long time to load, which pages users tend to visit and in what order. These cookies do not collect any information that could identify you and are only used to help us improve how our website works and understand user interests.
+      sub_text8_part2_inner_title3: User Convenience
+      sub_text8_part2_inner_text3: Some cookies (considered "functionality" cookies) remember information to save you the trouble of entering information every time you visit or use a particular website. For example, a cookie may remember your username to save you time when you log in to your account.
+      sub_text8_part2_inner_title4: Marketing
+      sub_text8_part2_inner_text4: Some cookies (considered "targeting or advertising" cookies) are used to tailor your experience on our website by controlling the promotions, advertisements and other marketing messages that may appear when you visit or use our website and help us learn which services you are using and how you are accessing information about us. We may use this information to personalize your visit to a website or to send you relevant promotions.
+      sub_text8_part2_inner_title5: Web Beacons
+      sub_text8_part2_inner_text5: Web beacons are small, transparent images that are embedded in web pages, applications, and emails that are sometimes called "clear gifs," "single pixel gifs,” "page tags" or "web bugs.”  We use web beacons to track the web pages you visit, to test the effectiveness of our marketing, and to find out if an email has been opened and acted on.
+      sub_title9: CHANGING YOUR INFORMATION OR DELETING YOUR ACCOUNT
+      sub_text9: If you want to change your information, cancel your account, or stop us from using your information, please contact us as described in the "Contact Us" section, below. We will make every effort to promptly respond to your request. We will retain your information for as long as your account is active or as needed to provide you services. If you ask us to delete your account, we generally retain and use your account information only as long as necessary to fulfill a business or law enforcement need.
+      sub_title10: CONDITIONS OF USE, NOTICES, AND REVISIONS
+      sub_text10_part1: By visiting this site, you accept that your visit and any dispute over privacy is subject to this Notice and our Conditions of Use, including limitations on damages, arbitration of disputes and application of the law of the state of California. If you have any concern about privacy, please contact us as directed in this Policy.
+      sub_text10_part2: This Policy applies only to Village Tea Co. sites and not to any third parties that may be accessed through hyper-links on this site. Village Tea Co. reserves the right to occasionally update this Policy. At such time, Village Tea Co. will also revise the “last updated” date at the end of the Policy. For material changes to this Policy, Village Tea Co. will notify you by placing prominent notice on the site. We recommend that you periodically review this Policy.
+      sub_title11: WARRANTY DISCLAIMER
+      sub_text11_part1: This site, including any content or information contained within in or any site-related service, is provided as-is, with all faults, with no representations or warranties of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, and noninfringement. You assume total responsibility and risk for your use of this site, site related services, and hyperlinked websites.
+      sub_text11_part2: Village Tea Co., its affiliates and its sponsors are neither responsible nor liable for any direct, indirect, incidental, consequential, special, exemplary, punitive or other damages arising out of or relating in any way to the site, site related services, content or information contained within the site, and/ or any hyperlinked website. Your sole remedy for dissatisfaction with the site, site related services, and/or hyperlinked websites is to stop using the site and/ or those services.
+      sub_text11_part3: Although Village Tea Co. attempts to ensure the integrity and accurateness of the site, it makes no guarantees whatsoever as to the correctness or accuracy of the site. It is possible that the site could include inaccuracies or errors, and that unauthorized additions, deletions and alterations could be made to the Site by third parties. In the event that an inaccuracy arises, please inform Village Tea Co. so it can be corrected.
+      sub_title12: CONTACT INFORMATION
+      sub_text12: Village Tea Co. welcomes feedback regarding this Policy. If at any time you believe that this site has not adhered to this Policy, please contact us and we will use all commercially reasonable efforts to promptly determine and correct the problem. E-mail should be sent to coldbrew@villagetea.co.

@@ -1,0 +1,45 @@
+@import "bootstrap-sprockets";
+@import "variables";
+@import "bootstrap";
+
+#products {
+  .product-list-item {
+    .panel-default {
+      border: 0;
+      box-shadow: none;
+      background-color: transparent;
+
+      .panel-body {
+        &.product-body {
+          background: asset-url('spree/frontend/hexagon.png') center center;
+          background-size: 100% 100%;
+          height: $product-body-height;
+
+          .image-helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+          }
+
+          a {
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+
+      .panel-footer {
+        border: 0;
+        background: transparent;
+      }
+    }
+  }
+}
+
+#product-description {
+  #cart-form {
+    .price {
+      color: $product-price-color;
+    }
+  }
+}

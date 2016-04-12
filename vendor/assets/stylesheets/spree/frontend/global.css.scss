@@ -1,0 +1,17 @@
+@import "bootstrap-sprockets";
+@import "variables";
+@import "bootstrap";
+
+body {
+  background-color: $body-background-color !important;
+
+  .btn {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #000 !important;
+  }
+
+  #content {
+    min-height: 650px;
+  }
+}

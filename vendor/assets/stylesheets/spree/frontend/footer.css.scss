@@ -1,0 +1,33 @@
+@import "bootstrap-sprockets";
+@import "variables";
+@import "bootstrap";
+
+#spree-footer {
+  background: $footer-bg-color;
+  padding-top: $padding-xl-vertical;
+  padding-bottom: $padding-xl-vertical;
+  margin-top: 0;
+  text-align: center;
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+
+    li {
+      display: inline;
+      padding: $padding-large-vertical $padding-xs-horizontal;
+      margin: $margin-sm-vertical $margin-sm-horizontal;
+      color: #fff;
+      font-size: $font-size-h4;
+
+      a,
+      a:hover,
+      a:focus {
+        color: $gray-light;
+        font-size: $font-size-base;
+      }
+    }
+  }
+}

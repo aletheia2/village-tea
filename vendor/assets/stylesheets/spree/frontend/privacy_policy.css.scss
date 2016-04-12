@@ -1,0 +1,16 @@
+@import "bootstrap-sprockets";
+@import "variables";
+@import "bootstrap";
+
+body {
+  &#privacy-policy {
+    .privacy-policy {
+      margin-bottom: $margin-xl-vertical;
+
+      h1,
+      h3 {
+        text-decoration: underline;
+      }
+    }
+  }
+}
