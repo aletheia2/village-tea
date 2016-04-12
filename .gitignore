@@ -10,9 +10,6 @@
 # Ignore rubymine project description files
 .idea
 
-# Ignore public/spree folder
-/public/spree
-
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
