@@ -80,11 +80,13 @@
 
     .image-panel {
       width: $header-title-section-sub-width;
+      height: $header-title-section-sub-height;
       margin-left: auto;
       margin-right: auto;
 
       .header-image {
         width: 100%;
+        display: none;
       }
     }
   }
