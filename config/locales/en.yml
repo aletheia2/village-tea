@@ -29,21 +29,21 @@ en:
       store_map: Store Map
     home_upper:
       upper_title: Village Tea Co
-      upper_text: A play on words, the name originates from an abbreviated version of the Phrygian cap, a symbol of enlightenment, and the phonetic allusion to a "fridge". Village Tea Co aims to encourage others to expand and explore their perceptions.
+      upper_text: Village Tea Co is a cold brew coffee and tea company in Ukrainian Village, Chicago. We offer a variety of single origin coffees alongside blended loose leaf teas.
       lower_title: Cold Brew
-      lower_text: Cold brew is a method, not an endpoint. We believe that people should be free to experienced iced coffee as a reflection of their preferences for single-origins, roasts, belnds and decaf.
+      lower_text: Cold brew is a method, not an endpoint. People should experience iced coffee as a reflection of their preferences for single origins, roasts, blends, and decaf. Cold brew is also the ideal method for steeping tea.
     home_lower:
       header: Craft
       upper_left_title: Roast
       upper_left_text: Our coffee is batch roasted in the mountains of Eastern Washington by an Orthodox Priest. His approach is steeped in tradition.
       upper_right_title: Soak
-      upper_right_text: Our grounds are placed in chilled, stainless steel containers to soak in water sourced from Palomar Mountain Granite Springs. The naturally occurring minerals set a foundation for the notes of chocolate, citrus, and jasmine that are awakended in our cold brew.
+      upper_right_text: Our grounds and leaves are placed in chilled, stainless steel containers to soak in premium spring water. The naturally occurring minerals set a foundation for the subtle flavors that are awakened in our cold brew.
       lower_left_title: Grind
       lower_left_text: Our beans are ground with a Mahlkonig, the King of Grinders. It's so precise that the instructions are in German.
       lower_right_title: Filtration
-      lower_right_text: When the rich, complex flavors of our coffee have fully diffused, we finish with a finely calibrated inline filtration system.
+      lower_right_text: When the rich, complex flavors of our coffee or tea have fully diffused, we finish with fine mesh filtration.
     shop:
-      title: Shop Your Coffee
+      title: Coffee & Tea
     footer:
       copyright: Village Tea Co, 2016
       terms_and_conditions: Terms & Conditions
