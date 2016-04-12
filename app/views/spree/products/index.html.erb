@@ -1,6 +1,0 @@
-<div class="products-index" data-hook="homepage_products">
-  <h1 class="text-center"><%= Spree.t('shop.title') %></h1>
-  <% cache(cache_key_for_products) do %>
-    <%= render :partial => 'spree/shared/products', :locals => { :products => @products, :taxon => @taxon } %>
-  <% end %>
-</div>
